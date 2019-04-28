@@ -1,6 +1,4 @@
-package stringsourcecode;
-
-import java.util.Arrays;
+package sourcescode.stringsourcecode;
 
 public class StringSourceCodeDemo {
     //数组拷贝用System.arraycopy而不用Arrays.copyOf();

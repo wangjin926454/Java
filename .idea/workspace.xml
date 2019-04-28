@@ -316,7 +316,7 @@
       </method>
     </configuration>
     <configuration name="StringSourceCodeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringsourcecode.StringSourceCodeDemo" />
+      <option name="MAIN_CLASS_NAME" value="sourcescode.stringsourcecode.StringSourceCodeDemo" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />

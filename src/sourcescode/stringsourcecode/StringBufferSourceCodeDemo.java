@@ -1,4 +1,4 @@
-package stringsourcecode;
+package sourcescode.stringsourcecode;
 
 public class StringBufferSourceCodeDemo {
     //AbstractStringBuilder中初始化
@@ -10,5 +10,5 @@ public class StringBufferSourceCodeDemo {
     StringBuffer添加synchronized关键字
     * */
     StringBuffer sb = new StringBuffer("wangjin");
-    StringBuilder sb1 = new StringBuilder("wangjiN");
+    StringBuilder sb1 = new StringBuilder("wangjin");
 }
