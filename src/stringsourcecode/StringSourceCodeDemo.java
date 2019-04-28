@@ -31,5 +31,8 @@ public class StringSourceCodeDemo {
         System.out.println(s1.contentEquals(s2));	//true
         System.out.println(s1.equals(sb));			//false
         System.out.println(s1.contentEquals(sb));	//true
+        //重写equals时一定要重写hashcode的原因
+        //<a href="https://blog.csdn.net/qq_35125495/article/details/89636757">原因</a>
+        System.out.println("ssss".hashCode());
     }
 }
