@@ -1,5 +1,8 @@
 package sourcescode.stringsourcecode;
 
+/**
+ * String源码分析
+ * */
 public class StringSourceCodeDemo {
     //数组拷贝用System.arraycopy而不用Arrays.copyOf();
     public static void main(String[] args){

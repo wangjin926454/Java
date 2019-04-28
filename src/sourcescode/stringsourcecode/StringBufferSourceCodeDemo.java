@@ -1,5 +1,8 @@
 package sourcescode.stringsourcecode;
 
+/**
+ * StringBuffer与StringBuilder源码分析
+ * */
 public class StringBufferSourceCodeDemo {
     //AbstractStringBuilder中初始化
     /*
