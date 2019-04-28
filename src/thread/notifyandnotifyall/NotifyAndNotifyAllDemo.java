@@ -9,6 +9,11 @@ package thread.notifyandnotifyall;
  * WAITING:等待状态,等待其他线程notify或中断
  * TIME-WAITING:sleep(timeout)或wait(timeout)自动唤醒
  * TERMINATED:终止线程
+ * 调用join()和sleep()方法，sleep()时间结束或被打断，join()中断,IO完成都会回到Runnable状态，等待JVM的调度。
+ * 调用wait()，使该线程处于等待池(wait blocked pool),直到notify()/notifyAll()，
+ * 线程被唤醒被放到锁定池(lock blocked pool )，
+ * 释放同步锁使线程回到可运行状态（Runnable）
+ * 对Running状态的线程加同步锁(Synchronized)使其进入(lock blocked pool ),同步锁被释放进入可运行状态(Runnable)。
  * */
 public class NotifyAndNotifyAllDemo {
     static boolean flag = false;
