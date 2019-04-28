@@ -1,5 +1,15 @@
 package thread.notifyandnotifyall;
 
+/**
+ * @author Administrator
+ * 线程状态:
+ * NEW:刚刚创建但没有调用start方法
+ * RUNNABLE:就绪,就差CPU调用
+ * BLOCKED:被调用,但是其他线程正在synchronized代码中
+ * WAITING:等待状态,等待其他线程notify或中断
+ * TIME-WAITING:sleep(timeout)或wait(timeout)自动唤醒
+ * TERMINATED:终止线程
+ * */
 public class NotifyAndNotifyAllDemo {
     static boolean flag = false;
     private static Object obj = new Object();
