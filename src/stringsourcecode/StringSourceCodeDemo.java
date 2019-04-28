@@ -33,6 +33,12 @@ public class StringSourceCodeDemo {
         System.out.println(s1.contentEquals(sb));	//true
         //重写equals时一定要重写hashcode的原因
         //<a href="https://blog.csdn.net/qq_35125495/article/details/89636757">原因</a>
-        System.out.println("ssss".hashCode());
+        System.out.println("ssss".hashCode());      //31*h+value[i];
+        String old = "wang";                        //常量池中
+        String new1 = new String("wang");  //堆中和常量池中
+        String new2 = new1.intern();                //对new1常量池中的引用，存在则返回,不存在创建并返回
+        System.out.println(old==new1);              //false
+        System.out.println(old==new1);              //false
+        System.out.println(old==new2);              //true
     }
 }
