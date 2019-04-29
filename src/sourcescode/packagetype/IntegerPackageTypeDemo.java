@@ -23,6 +23,7 @@ public class IntegerPackageTypeDemo {
                 res = res.append(str1);
             }
             if(str1.length()==7){
+                //char ch = Character.forDigit(Integer.parseInt(str1),2);
                 int a = Integer.parseUnsignedInt(str1,2);
                 char ch;
                 ch = (char) a;
@@ -54,5 +55,8 @@ public class IntegerPackageTypeDemo {
         //System.out.println(Integer.toBinaryString('a'));      
         //System.out.println(Integer.toBinaryString('z'));
         //System.out.println(Integer.toBinaryString(""));
+        Integer i = new Integer(4);
+        //System.out.println(i.hashCode());
+        //System.out.println(Integer.hashCode(4));
     }
 }
