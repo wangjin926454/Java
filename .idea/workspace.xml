@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ccfcffc-63e6-454f-acd1-09ba927fd203" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sourcescode/threadsourcecode/ThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/sourcescode/packagetype/BooleanPackageTypeDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/sourcescode/packagetype/BytePackageTypeDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/sourcescode/packagetype/CharPackageTypeDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/sourcescode/packagetype/DoublePackageTypeDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/sourcescode/packagetype/FloatPackageTypeDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/sourcescode/packagetype/IntegerPackageTypeDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/sourcescode/packagetype/LongPackageTypeDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/sourcescode/packagetype/ShortPackageTypeDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourcescode/packagetype/BooleanPackageTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcescode/packagetypesourcecode/BooleanPackageTypeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourcescode/packagetype/BytePackageTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcescode/packagetypesourcecode/BytePackageTypeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourcescode/packagetype/CharPackageTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcescode/packagetypesourcecode/CharPackageTypeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourcescode/packagetype/DoublePackageTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcescode/packagetypesourcecode/DoublePackageTypeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourcescode/packagetype/FloatPackageTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcescode/packagetypesourcecode/FloatPackageTypeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourcescode/packagetype/IntegerPackageTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcescode/packagetypesourcecode/IntegerPackageTypeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourcescode/packagetype/LongPackageTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcescode/packagetypesourcecode/LongPackageTypeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourcescode/packagetype/ShortPackageTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcescode/packagetypesourcecode/ShortPackageTypeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourcescode/threadsourcecode/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcescode/threadsourcecode/ThreadDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,14 +60,14 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="14" />
-          <entry key="java" value="113" />
+          <entry key="java" value="117" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="14" />
-          <entry key="JAVA" value="113" />
+          <entry key="JAVA" value="117" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -92,13 +75,13 @@
         <counts>
           <entry key="class" value="36" />
           <entry key="dummy" value="7" />
-          <entry key="java" value="10129" />
+          <entry key="java" value="10333" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="36" />
-          <entry key="JAVA" value="10129" />
+          <entry key="JAVA" value="10333" />
           <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
@@ -112,34 +95,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sourcescode/threadsourcecode/ThreadDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-145">
-              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="147">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="e#150#151#0" expanded="true" />
                 <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#600#702#0" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Thread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="1389" column="26" lean-forward="true" selection-start-line="1389" selection-start-column="26" selection-end-line="1389" selection-end-column="26" />
-              <folding>
-                <element signature="e#5559#5560#0" expanded="true" />
-                <element signature="e#5600#5601#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/SecurityManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="747">
-              <caret line="670" column="16" selection-start-line="670" selection-start-column="16" selection-end-line="670" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -226,7 +189,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -260,6 +223,13 @@
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sourcescode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sourcescode" type="462c0819:PsiDirectoryNode" />
+              <item name="threadsourcecode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
@@ -383,23 +353,24 @@
       <workItem from="1555392500889" duration="807000" />
       <workItem from="1556172010172" duration="2322000" />
       <workItem from="1556265974602" duration="28124000" />
-      <workItem from="1556442517769" duration="18339000" />
+      <workItem from="1556442517769" duration="22761000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110060000" />
+    <option name="totallyTimeSpent" value="114482000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4993046" visible="true" weight="0.2869171" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993046" visible="true" weight="0.2869171" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.5006954" side_tool="true" weight="0.24740933" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49935234" visible="true" weight="0.32684284" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49935234" visible="true" weight="0.14603616" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44645342" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -450,20 +421,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/redis/pubsub/PubSubDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redis/pubsub/PublishMsg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="26" column="73" lean-forward="true" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/redis/pubsub/SubDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -864,13 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/SecurityManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="670" column="16" selection-start-line="670" selection-start-column="16" selection-end-line="670" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/thread/produceandconsumer/ThreadDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-100">
@@ -885,24 +835,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/SecurityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="670" column="16" selection-start-line="670" selection-start-column="16" selection-end-line="670" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/ThreadGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-296">
+          <caret line="885" column="9" selection-start-line="885" selection-start-column="9" selection-end-line="885" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="62" column="73" lean-forward="true" selection-start-line="62" selection-start-column="73" selection-end-line="62" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="1389" column="26" lean-forward="true" selection-start-line="1389" selection-start-column="26" selection-end-line="1389" selection-end-column="26" />
+        <state relative-caret-position="-44105">
+          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
           <folding>
             <element signature="e#5559#5560#0" expanded="true" />
             <element signature="e#5600#5601#0" expanded="true" />
+            <element signature="e#52232#52233#0" expanded="true" />
+            <element signature="e#52261#52262#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sourcescode/threadsourcecode/ThreadDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="147">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="e#150#151#0" expanded="true" />
             <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#600#702#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
           </folding>
         </state>
       </provider>
