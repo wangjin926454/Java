@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/sourcescode/packagetypesourcecode/ShortPackageTypeDemo.java" line="2" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ccfcffc-63e6-454f-acd1-09ba927fd203" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/sourcescode/threadsourcecode/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcescode/threadsourcecode/ThreadDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="0ccfcffc-63e6-454f-acd1-09ba927fd203" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -353,12 +351,12 @@
       <workItem from="1555392500889" duration="807000" />
       <workItem from="1556172010172" duration="2322000" />
       <workItem from="1556265974602" duration="28124000" />
-      <workItem from="1556442517769" duration="22761000" />
+      <workItem from="1556442517769" duration="22789000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114482000" />
+    <option name="totallyTimeSpent" value="114510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
