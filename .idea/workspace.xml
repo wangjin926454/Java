@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/sourcescode/packagetype/ShortPackageTypeDemo.java" line="2" mnemonic="8" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0ccfcffc-63e6-454f-acd1-09ba927fd203" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sourcescode/packagetype/CharPackageTypeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourcescode/packagetype/FloatPackageTypeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourcescode/packagetype/BytePackageTypeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourcescode/packagetype/DoublePackageTypeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourcescode/packagetype/LongPackageTypeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourcescode/packagetype/ShortPackageTypeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/sourcescode/packagetype/CharPackageTypeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/sourcescode/packagetype/CharPackageTypeDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/sourcescode/packagetype/FloatPackageTypeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/sourcescode/packagetype/FloatPackageTypeDemo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java/sourcescode/packagetype/IntegerPackageTypeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/sourcescode/packagetype/IntegerPackageTypeDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourcescode/packagetype/BooleanPackageTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcescode/packagetype/BooleanPackageTypeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourcescode/packagetype/CharPackageTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcescode/packagetype/CharPackageTypeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourcescode/packagetype/FloatPackageTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcescode/packagetype/FloatPackageTypeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sourcescode/packagetype/IntegerPackageTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcescode/packagetype/IntegerPackageTypeDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -60,15 +70,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="13" />
-          <entry key="java" value="88" />
+          <entry key="class" value="14" />
+          <entry key="java" value="108" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="13" />
-          <entry key="JAVA" value="88" />
+          <entry key="CLASS" value="14" />
+          <entry key="JAVA" value="108" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -76,13 +86,13 @@
         <counts>
           <entry key="class" value="36" />
           <entry key="dummy" value="7" />
-          <entry key="java" value="9091" />
+          <entry key="java" value="9800" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="36" />
-          <entry key="JAVA" value="9091" />
+          <entry key="JAVA" value="9800" />
           <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
@@ -94,10 +104,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sourcescode/packagetype/FloatPackageTypeDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/sourcescode/packagetype/LongPackageTypeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="225">
+              <caret line="9" column="70" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -124,10 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/designpattern/bridgepattern/Shape.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/bridgepattern/Circle.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/bridgepattern/BrigeDemo.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/bridgepattern/BridgePatternInfo.java" />
         <option value="$PROJECT_DIR$/src/designpattern/DesignPatternInfo.java" />
         <option value="$PROJECT_DIR$/src/designpattern/buildpattern/BuildPatternInfo.java" />
         <option value="$PROJECT_DIR$/src/designpattern/buildpattern/Packing.java" />
@@ -170,11 +176,15 @@
         <option value="$PROJECT_DIR$/src/sourcescode/stringsourcecode/StringSourceCodeDemo.java" />
         <option value="$PROJECT_DIR$/src/sourcescode/stringsourcecode/StringBufferSourceCodeDemo.java" />
         <option value="$PROJECT_DIR$/src/sourcescode/packagetype/PackageTypeDemo.java" />
-        <option value="$PROJECT_DIR$/src/sourcescode/packagetype/BooleanPackageTypeDemo.java" />
-        <option value="$PROJECT_DIR$/src/sourcescode/packagetype/IntegerPackageTypeDemo.java" />
         <option value="$PROJECT_DIR$/src/sourcescode/packagetype/FloatPackageTypeDeo.java" />
+        <option value="$PROJECT_DIR$/src/sourcescode/packagetype/BooleanPackageTypeDemo.java" />
         <option value="$PROJECT_DIR$/src/sourcescode/packagetype/CharPackageTypeDemo.java" />
         <option value="$PROJECT_DIR$/src/sourcescode/packagetype/FloatPackageTypeDemo.java" />
+        <option value="$PROJECT_DIR$/src/sourcescode/packagetype/IntegerPackageTypeDemo.java" />
+        <option value="$PROJECT_DIR$/src/sourcescode/packagetype/DoublePackageTypeDemo.java" />
+        <option value="$PROJECT_DIR$/src/sourcescode/packagetype/BytePackageTypeDemo.java" />
+        <option value="$PROJECT_DIR$/src/sourcescode/packagetype/ShortPackageTypeDemo.java" />
+        <option value="$PROJECT_DIR$/src/sourcescode/packagetype/LongPackageTypeDemo.java" />
       </list>
     </option>
   </component>
@@ -271,9 +281,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FloatPackageTypeDemo">
-    <configuration name="BooleanPackageTypeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sourcescode.packagetype.BooleanPackageTypeDemo" />
+  <component name="RunManager" selected="Application.LongPackageTypeDemo">
+    <configuration name="BytePackageTypeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sourcescode.packagetype.BytePackageTypeDemo" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -286,8 +296,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FloatPackageTypeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sourcescode.packagetype.FloatPackageTypeDemo" />
+    <configuration name="DoublePackageTypeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sourcescode.packagetype.DoublePackageTypeDemo" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -300,15 +310,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotifyAndNotifyAllDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.notifyandnotifyall.NotifyAndNotifyAllDemo" />
+    <configuration name="LongPackageTypeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sourcescode.packagetype.LongPackageTypeDemo" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringSourceCodeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sourcescode.stringsourcecode.StringSourceCodeDemo" />
+    <configuration name="ShortPackageTypeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sourcescode.packagetype.ShortPackageTypeDemo" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -317,18 +327,18 @@
     <list>
       <item itemvalue="Application.IntegerPackageTypeDemo" />
       <item itemvalue="Application.CharPackageTypeDemo" />
-      <item itemvalue="Application.NotifyAndNotifyAllDemo" />
-      <item itemvalue="Application.StringSourceCodeDemo" />
-      <item itemvalue="Application.BooleanPackageTypeDemo" />
-      <item itemvalue="Application.FloatPackageTypeDemo" />
+      <item itemvalue="Application.DoublePackageTypeDemo" />
+      <item itemvalue="Application.BytePackageTypeDemo" />
+      <item itemvalue="Application.ShortPackageTypeDemo" />
+      <item itemvalue="Application.LongPackageTypeDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FloatPackageTypeDemo" />
+        <item itemvalue="Application.LongPackageTypeDemo" />
+        <item itemvalue="Application.ShortPackageTypeDemo" />
+        <item itemvalue="Application.BytePackageTypeDemo" />
+        <item itemvalue="Application.DoublePackageTypeDemo" />
         <item itemvalue="Application.CharPackageTypeDemo" />
-        <item itemvalue="Application.BooleanPackageTypeDemo" />
-        <item itemvalue="Application.StringSourceCodeDemo" />
-        <item itemvalue="Application.NotifyAndNotifyAllDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -348,23 +358,23 @@
       <workItem from="1555392500889" duration="807000" />
       <workItem from="1556172010172" duration="2322000" />
       <workItem from="1556265974602" duration="28124000" />
-      <workItem from="1556442517769" duration="12433000" />
+      <workItem from="1556442517769" duration="15630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104154000" />
+    <option name="totallyTimeSpent" value="107351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993046" visible="true" weight="0.2869171" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4993046" visible="true" weight="0.2869171" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.5006954" side_tool="true" weight="0.24740933" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49935234" visible="true" weight="0.30737135" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49935234" visible="true" weight="0.3463143" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39638385" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -415,47 +425,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/redis/jedis-2.9.0.jar!/redis/clients/jedis/Jedis.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/redis/connect-composite-jackson-1.3.jar!/META-INF/maven/cd.connect.composites.java/connect-composite-jackson/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1200" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/jackson-mapper-asl-1.9.0.jar!/org/codehaus/jackson/map/ObjectMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="747" column="32" lean-forward="true" selection-start-line="747" selection-start-column="32" selection-end-line="747" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redis/redisdatatype/RedisDataType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/jackson-mapper-asl-1.9.0.jar!/org/codehaus/jackson/map/JsonMappingException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/redis/jedis-2.9.0.jar!/redis/clients/jedis/JedisPubSub.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redis/pubsub/JedisUtils.java" />
     <entry file="jar://C:/redis/jedis-2.9.0.jar!/redis/clients/jedis/JedisPool.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-675">
@@ -723,17 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Number.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-531">
-          <caret line="89" column="33" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
-          <folding>
-            <element signature="e#3045#3046#0" expanded="true" />
-            <element signature="e#3084#3085#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13175">
@@ -803,48 +761,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sourcescode/packagetype/BooleanPackageTypeDemo.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sourcescode/packagetype/IntegerPackageTypeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sourcescode/packagetype/CharPackageTypeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/sun/misc/FloatingDecimal.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2775">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="-956">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+          <folding>
+            <element signature="e#3045#3046#0" expanded="true" />
+            <element signature="e#3084#3085#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Float.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-650">
-          <caret line="57" column="55" lean-forward="true" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
+        <state relative-caret-position="25">
+          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sourcescode/packagetype/BooleanPackageTypeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sourcescode/packagetype/FloatPackageTypeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sourcescode/packagetype/IntegerPackageTypeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="58" column="56" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sourcescode/packagetype/CharPackageTypeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/sun/misc/FloatingDecimal.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-846">
+          <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Double.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2336">
+          <caret line="203" column="39" lean-forward="true" selection-start-line="203" selection-start-column="39" selection-end-line="203" selection-end-column="39" />
+          <folding>
+            <element signature="e#7471#7472#0" expanded="true" />
+            <element signature="e#7531#7532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Byte.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2313">
+          <caret line="507" column="28" selection-start-line="507" selection-start-column="28" selection-end-line="507" selection-end-column="28" />
+          <folding>
+            <element signature="e#1735#1736#0" expanded="true" />
+            <element signature="e#1786#1787#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sourcescode/packagetype/DoublePackageTypeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sourcescode/packagetype/BytePackageTypeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/src.zip!/java/nio/ShortBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-400">
+          <caret line="261" column="22" selection-start-line="261" selection-start-column="22" selection-end-line="261" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sourcescode/packagetype/ShortPackageTypeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sourcescode/packagetype/LongPackageTypeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="70" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
         </state>
       </provider>
     </entry>

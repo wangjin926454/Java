@@ -11,6 +11,8 @@ public class FloatPackageTypeDemo {
        System.out.println(Float.MIN_VALUE);         //1.4E-45
        System.out.println(Float.MIN_NORMAL);        //1.17549435E-38
        System.out.println(Float.MIN_EXPONENT);      //-126
+       System.out.println(Float.SIZE);              //32bit
+       System.out.println(Float.BYTES);             //4bytes
    }
 
 }

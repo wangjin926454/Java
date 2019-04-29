@@ -55,7 +55,8 @@ public class IntegerPackageTypeDemo {
         //System.out.println(Integer.toBinaryString('a'));      
         //System.out.println(Integer.toBinaryString('z'));
         //System.out.println(Integer.toBinaryString(""));
-        Integer i = new Integer(4);
+        System.out.println(Integer.SIZE);       //32bit
+        System.out.println(Integer.BYTES);      //4bytes
         //System.out.println(i.hashCode());
         //System.out.println(Integer.hashCode(4));
     }

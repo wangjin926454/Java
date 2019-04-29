@@ -16,6 +16,6 @@ public class BooleanPackageTypeDemo {
         System.out.println(b1.toString());      //true
         System.out.println(Boolean.toString(false)); //false
         System.out.println(Boolean.hashCode(true)); //true 1231 false 1237
-        System.out.println(Boolean.getBoolean("aaa")); //false
+        System.out.println(Boolean.getBoolean("aaa")); //false;
     }
 }
