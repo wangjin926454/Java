@@ -1,4 +1,4 @@
-package sourcescode.packagetype;
+package sourcescode.packagetypesourcecode;
 
 /**
  * long package type demo

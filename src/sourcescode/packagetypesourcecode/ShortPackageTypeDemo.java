@@ -1,6 +1,4 @@
-package sourcescode.packagetype;
-
-import java.nio.ShortBuffer;
+package sourcescode.packagetypesourcecode;
 
 /**
  * short package type demo

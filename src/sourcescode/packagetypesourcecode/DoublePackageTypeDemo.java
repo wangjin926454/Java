@@ -1,4 +1,4 @@
-package sourcescode.packagetype;
+package sourcescode.packagetypesourcecode;
 
 /**
  * double package type demo

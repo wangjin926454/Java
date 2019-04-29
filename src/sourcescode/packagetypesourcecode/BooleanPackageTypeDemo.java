@@ -1,4 +1,4 @@
-package sourcescode.packagetype;
+package sourcescode.packagetypesourcecode;
 
 /**
  * 包装类源码分析
