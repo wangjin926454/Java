@@ -32,3 +32,4 @@ lib/*
 .mvn/*
 .idea/*
 [mvnw]
+.idea/workspace.xml
