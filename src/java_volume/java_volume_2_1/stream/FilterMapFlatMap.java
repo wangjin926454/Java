@@ -1,4 +1,4 @@
-package java_volume_2_1.stream;
+package java_volume.java_volume_2_1.stream;
 
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;

@@ -1,8 +1,6 @@
 <component name="libraryTable">
   <library name="jedis-2.9.0">
-    <CLASSES>
-      <root url="jar://C:/redis/jedis-2.9.0.jar!/" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
     <SOURCES />
   </library>

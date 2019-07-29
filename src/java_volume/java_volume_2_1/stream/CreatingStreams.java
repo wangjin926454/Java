@@ -1,4 +1,4 @@
-package java_volume_2_1.stream;
+package java_volume.java_volume_2_1.stream;
 
 import java.math.BigInteger;
 import java.nio.charset.StandardCharsets;
@@ -33,6 +33,7 @@ public class CreatingStreams  {
         System.out.println();
     }
     public static void main(String[] args) throws Exception{
+        //对于得到结果的stream可以使用collect()方法收集
         Path path = Paths.get("C:\\Users\\Administrator\\a.txt");
         String con = new String(Files.readAllBytes(path), StandardCharsets.UTF_8); //nio以utf-8形式读取文件
         Stream<String> stream  = Stream.of(con.split("\\PL+"));       //切割读取的文件返回数组然后转换为一个流

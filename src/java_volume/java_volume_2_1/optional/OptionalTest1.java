@@ -1,4 +1,4 @@
-package java_volume_2_1.optional;
+package java_volume.java_volume_2_1.optional;
 
 public class OptionalTest1 {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-﻿package athena;
+package effectivejava;
 
 import java.util.Arrays;
 
@@ -22,13 +22,13 @@ public class CloneTest{
 class Test implements Cloneable{
     public int size = 0;
     public String str = "wangjin";
-    public Object[] elements;
+    Object[] elements;
 
     public Test(){
 
     }
 
-    public Test(int size){
+    Test(int size){
         this.elements = new Object[10];
         for(int i=0;i<10;i++){
             elements[i] = i;
@@ -53,7 +53,7 @@ class Test implements Cloneable{
             Test{elements=[0, 1, 2, 3, 4, 10, 6, 7, 8, 9]} 20
             * */
             //return super.clone();   //在try中直接return此语句。在原对象中不存在可变对象则无影响。
-                                      //如果原对象中存在可变对象则会导致clone的对象实例也指向同一地址会产生错误的结果
+            //如果原对象中存在可变对象则会导致clone的对象实例也指向同一地址会产生错误的结果
         } catch (CloneNotSupportedException e){
             e.printStackTrace();
         }

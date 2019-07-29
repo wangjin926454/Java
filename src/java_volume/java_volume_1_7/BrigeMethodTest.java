@@ -1,4 +1,4 @@
-package java_volume_1_7;
+package java_volume.java_volume_1_7;
 
 /**
  * 泛型擦除桥方法  https://blog.csdn.net/hao_yan_bing/article/details/89447792

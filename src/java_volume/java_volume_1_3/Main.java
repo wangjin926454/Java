@@ -1,4 +1,4 @@
-package java_volume_I_3;
+package java_volume.java_volume_1_3;
 
 public class Main {
 
