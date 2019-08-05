@@ -2,6 +2,9 @@ package effectivejava;
 
 import java.util.Arrays;
 
+/**
+ * 深克隆与浅克隆以及克隆结果区别
+ * */
 public class CloneTest{
     public static void main(String[] args){
         Test t = new Test(10);
