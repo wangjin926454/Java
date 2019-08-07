@@ -4,7 +4,7 @@ import java.io.*;
 /**
  * try-with-resources
  * */
-public class TryWithResourcesTest implements Closeable {  //实现Closeable接口
+public class TryWithResourcesTest implements AutoCloseable {  //实现Closeable接口
 
         public static void main(String[] args)throws Exception{
             try  (BufferedReader br = new BufferedReader(
