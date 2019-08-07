@@ -3,7 +3,7 @@ package effectivejava;
 import java.util.List;
 
 public class SpellChecker {
-    private final Object object;
+    private final Object object;        //目标类
     //创建新实例时将资源传递到构造器中
     public SpellChecker(Object object){
         this.object=object;
