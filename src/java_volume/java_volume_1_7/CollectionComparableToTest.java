@@ -12,7 +12,7 @@ public class CollectionComparableToTest {
         list.add(new Student1("wangjin",16));
         list.add(new Student1("wangjin",15));
         list.add(new Student1("wangjin",17));
-        list.sort(Comparator.reverseOrder());
+        list.sort(Comparator.reverseOrder());  //自定义排序
         for(Student1 student1 : list){
             System.out.println(student1.toString());
         }

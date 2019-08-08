@@ -12,11 +12,11 @@ import java.io.FileOutputStream;
  * */
 public class InputOutputStream implements AutoCloseable{
     public static void main(String[] args)throws Exception{
-       try( FileInputStream fis = new FileInputStream("C:\\Users\\Administrator\\a.txt");
+       try( FileInputStream fis = new FileInputStream("C:\\Users\\Public\\Music\\Sample Music\\Kalimba.mp3");
             FileOutputStream fos = new FileOutputStream(
-                    "C:\\Users\\Administrator\\Documents\\GitHub\\Java\\src\\java_volume\\java_volume_2_2\\a.txt")){
+                    "C:\\Users\\Administrator\\Documents\\GitHub\\Java\\src\\java_volume\\java_volume_2_2\\Kalimba.mp3")){
            int len = -1;
-           byte[] b = new byte[1024];
+           byte[] b = new byte[1024*20];
            long  s = System.currentTimeMillis();
            while( (len = fis.read(b)) != -1){
                //在使用FileInputStream和FileOutputStream时读写最好使用

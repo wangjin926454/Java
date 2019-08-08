@@ -94,34 +94,35 @@
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.41" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="5" />
-          <entry key="java" value="116" />
+          <entry key="html" value="6" />
+          <entry key="java" value="120" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="5" />
-          <entry key="JAVA" value="116" />
+          <entry key="HTML" value="6" />
+          <entry key="JAVA" value="120" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="26" />
-          <entry key="html" value="1884" />
-          <entry key="java" value="10359" />
+          <entry key="html" value="2296" />
+          <entry key="java" value="10411" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1884" />
-          <entry key="JAVA" value="10359" />
+          <entry key="HTML" value="2296" />
+          <entry key="JAVA" value="10411" />
           <entry key="PLAIN_TEXT" value="26" />
         </counts>
       </usages-collector>
@@ -133,40 +134,71 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java_volume/java_volume_2_2/PackageInfo.java">
+        <entry file="file://$PROJECT_DIR$/src/java_volume/java_volume_2_2/InputStreamAndDataInputStreamTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="150">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/java_volume/java_volume_2_2/InputStreamAndDataInputStreamTest.java">
+        <entry file="file://$PROJECT_DIR$/../wangjin926454.github.io/Effective_Java/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="601">
+              <caret line="260" column="9" selection-start-line="260" selection-start-column="9" selection-end-line="260" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java_volume/java_volume_2_2/InputOutputStream.java">
+        <entry file="file://$PROJECT_DIR$/src/effectivejava/MyObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+            <state relative-caret-position="175">
+              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java_volume/java_volume_2_2/a.txt">
+        <entry file="file://$PROJECT_DIR$/src/java_volume/java_volume_1_7/CollectionComparableToTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-13805">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="300">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+              <folding>
+                <element signature="e#1296#1297#0" expanded="true" />
+                <element signature="e#1336#1337#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Comparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="338" column="32" selection-start-line="338" selection-start-column="32" selection-end-line="338" selection-end-column="32" />
+              <folding>
+                <element signature="e#14106#14107#0" expanded="true" />
+                <element signature="e#14155#14156#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Collections.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="5141" column="24" selection-start-line="5141" selection-start-column="24" selection-end-line="5141" selection-end-column="24" />
+              <folding>
+                <element signature="e#197058#197059#0" expanded="true" />
+                <element signature="e#197128#197129#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -209,7 +241,6 @@
         <option value="$PROJECT_DIR$/src/java_volume/java_volume_1_7/BinarySearchTest.java" />
         <option value="$PROJECT_DIR$/src/java_volume/java_volume_1_7/BitSetTest.java" />
         <option value="$PROJECT_DIR$/src/java_volume/java_volume_1_7/BrigeMethodTest.java" />
-        <option value="$PROJECT_DIR$/src/java_volume/java_volume_1_7/CollectionComparableToTest.java" />
         <option value="$PROJECT_DIR$/src/java_volume/java_volume_1_7/CollectionReflectTest.java" />
         <option value="$PROJECT_DIR$/src/java_volume/java_volume_1_7/CollectionToArrayTest.java" />
         <option value="$PROJECT_DIR$/src/java_volume/java_volume_1_7/ExceptionTest.java" />
@@ -225,7 +256,6 @@
         <option value="$PROJECT_DIR$/src/java_volume/java_volume_2_1/optional/CollectOptionalResultToMap.java" />
         <option value="$PROJECT_DIR$/src/java_volume/java_volume_2_1/optional/OptionalInfo.java" />
         <option value="$PROJECT_DIR$/src/effectivejava/CloneTest.java" />
-        <option value="$PROJECT_DIR$/src/effectivejava/MyObject.java" />
         <option value="$PROJECT_DIR$/src/effectivejava/NutritionFacts.java" />
         <option value="$PROJECT_DIR$/src/effectivejava/NewNutritionFacts.java" />
         <option value="$PROJECT_DIR$/src/effectivejava/SingletonTest.java" />
@@ -238,13 +268,15 @@
         <option value="$PROJECT_DIR$/src/java_volume/java_volume_2_1/stream/parallelStream/ParallslStreamTest.java" />
         <option value="$PROJECT_DIR$/src/effectivejava/SpellChecker.java" />
         <option value="$PROJECT_DIR$/src/effectivejava/TryCatchFinallyTest.java" />
-        <option value="$PROJECT_DIR$/../wangjin926454.github.io/Effective_Java/index.html" />
         <option value="$PROJECT_DIR$/src/java_volume/java_volume_2_1/PackageInfo.java" />
         <option value="$PROJECT_DIR$/src/effectivejava/TryWithResourcesTest.java" />
         <option value="$PROJECT_DIR$/src/java_volume/java_volume_2_2/a.txt" />
         <option value="$PROJECT_DIR$/src/java_volume/java_volume_2_2/PackageInfo.java" />
         <option value="$PROJECT_DIR$/src/java_volume/java_volume_2_2/InputOutputStream.java" />
         <option value="$PROJECT_DIR$/src/java_volume/java_volume_2_2/InputStreamAndDataInputStreamTest.java" />
+        <option value="$PROJECT_DIR$/src/effectivejava/MyObject.java" />
+        <option value="$PROJECT_DIR$/src/java_volume/java_volume_1_7/CollectionComparableToTest.java" />
+        <option value="$PROJECT_DIR$/../wangjin926454.github.io/Effective_Java/index.html" />
       </list>
     </option>
   </component>
@@ -255,10 +287,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="262" />
-    <option name="y" value="43" />
+    <option name="x" value="737" />
+    <option name="y" value="1" />
     <option name="width" value="1620" />
-    <option name="height" value="997" />
+    <option name="height" value="999" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -269,7 +301,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -299,6 +331,35 @@
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java_volume" type="462c0819:PsiDirectoryNode" />
+              <item name="java_volume_1_3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java_volume" type="462c0819:PsiDirectoryNode" />
+              <item name="java_volume_1_7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java_volume" type="462c0819:PsiDirectoryNode" />
+              <item name="java_volume_1_7" type="462c0819:PsiDirectoryNode" />
+              <item name="CollectionComparableToTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java_volume" type="462c0819:PsiDirectoryNode" />
+              <item name="java_volume_2_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java_volume" type="462c0819:PsiDirectoryNode" />
               <item name="java_volume_2_2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -309,7 +370,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,7 +379,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565188106952" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565267253212" />
     <property name="last_opened_file_path" value="F:/Git/cmd" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -348,13 +409,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InputStreamAndDataInputStreamTest">
+  <component name="RunManager" selected="Application.CollectionComparableToTest">
     <configuration name="BasicStreamlTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java_volume.java_volume_2_1.optional.BasicStreamlTest" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="java_volume.java_volume_2_1.optional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionComparableToTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_volume.java_volume_1_7.CollectionComparableToTest" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_volume.java_volume_1_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -408,34 +482,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReduceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_volume.java_volume_2_1.optional.ReduceTest" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java_volume.java_volume_2_1.optional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.IntegerPackageTypeDemo" />
-      <item itemvalue="Application.ReduceTest" />
       <item itemvalue="Application.BasicStreamlTest" />
       <item itemvalue="Application.ParallslStreamTest" />
       <item itemvalue="Application.InputOutputStream" />
       <item itemvalue="Application.InputStreamAndDataInputStreamTest" />
+      <item itemvalue="Application.CollectionComparableToTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InputStreamAndDataInputStreamTest" />
+        <item itemvalue="Application.CollectionComparableToTest" />
         <item itemvalue="Application.InputOutputStream" />
+        <item itemvalue="Application.InputStreamAndDataInputStreamTest" />
         <item itemvalue="Application.ParallslStreamTest" />
         <item itemvalue="Application.BasicStreamlTest" />
-        <item itemvalue="Application.ReduceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -462,17 +523,18 @@
       <workItem from="1565006190129" duration="8784000" />
       <workItem from="1565096125800" duration="5219000" />
       <workItem from="1565176245833" duration="9660000" />
+      <workItem from="1565264736934" duration="2470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177323000" />
+    <option name="totallyTimeSpent" value="179793000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="262" y="43" width="1620" height="997" extended-state="0" />
+    <frame x="898" y="35" width="1620" height="999" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4993046" visible="true" weight="0.21025641" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4993046" weight="0.21282052" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.5006954" side_tool="true" weight="0.24740933" />
@@ -481,7 +543,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962447" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49935234" visible="true" weight="0.28041714" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49935234" visible="true" weight="0.1317919" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44645342" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -535,34 +597,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/effectivejava/MyObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/effectivejava/NewNutritionFacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="763">
-          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/effectivejava/CloneTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/effectivejava/SingletonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java_volume/java_volume_2_1/optional/OptionalInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -668,9 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -685,10 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -703,13 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../wangjin926454.github.io/Effective_Java/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="146" column="31" lean-forward="true" selection-start-line="146" selection-start-column="31" selection-end-line="146" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -846,20 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java_volume/java_volume_2_2/a.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13805">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java_volume/java_volume_2_2/PackageInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/io/OutputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="790">
@@ -885,20 +891,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/java_volume/java_volume_2_2/PackageInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java_volume/java_volume_2_2/a.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/java_volume/java_volume_2_2/InputOutputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        <state relative-caret-position="363">
+          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/effectivejava/MyObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java_volume/java_volume_1_7/CollectionComparableToTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <element signature="e#1296#1297#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="338" column="32" selection-start-line="338" selection-start-column="32" selection-end-line="338" selection-end-column="32" />
+          <folding>
+            <element signature="e#14106#14107#0" expanded="true" />
+            <element signature="e#14155#14156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="5141" column="24" selection-start-line="5141" selection-start-column="24" selection-end-line="5141" selection-end-column="24" />
+          <folding>
+            <element signature="e#197058#197059#0" expanded="true" />
+            <element signature="e#197128#197129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/java_volume/java_volume_2_2/InputStreamAndDataInputStreamTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        <state relative-caret-position="150">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wangjin926454.github.io/Effective_Java/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="260" column="9" selection-start-line="260" selection-start-column="9" selection-end-line="260" selection-end-column="9" />
         </state>
       </provider>
     </entry>

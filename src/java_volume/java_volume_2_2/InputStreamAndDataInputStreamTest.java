@@ -15,7 +15,6 @@ public class InputStreamAndDataInputStreamTest implements AutoCloseable {
                      new BufferedOutputStream(
                              new FileOutputStream("C:\\Users\\Administrator\\Documents\\GitHub\\Java\\src\\java_volume\\java_volume_2_2\\a.txt")
                      ))) {
-             
         }
     }
 
