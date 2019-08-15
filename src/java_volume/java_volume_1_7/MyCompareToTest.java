@@ -11,10 +11,19 @@ public class MyCompareToTest {
                 new Student("wangjin",15),
                 new Student("wangjin",17),
         };
+        //数组排序
         Arrays.sort(students);
         for(Student student: students){
             System.out.println(student.toString());
         }
+        //如果需要对List<MyClass>进行class中某个String类型的元素进行排序使用o1.xx.compareTo(o2.xx);
+        //Collections.sort(ListNew, new Comparator<Apex_InternalBillDetail>() {
+                   // @Override
+                    //public int compare(Apex_InternalBillDetail o1, Apex_InternalBillDetail o2) {
+                                                 //不区分大小写排序
+                        //return o1.get客户编号().compareToIgnoreCase(o2.get客户编号());
+                    //}
+               //});
     }
 }
 class Student implements Comparable<Student>{
