@@ -20,9 +20,9 @@ public class ReadAFilleTest implements AutoCloseable{
         //一行一行得读入
         List<String> lines = Files.readAllLines(Paths.get("C:\\Users\\Administrator\\a.txt"),StandardCharsets.UTF_8);
         lines.forEach(System.out::println);
-        //如果文件太大
+        //如果文件太大读取为流
         Stream<String> stream = Files.lines(Paths.get("C:\\Users\\Administrator\\a.txt"),StandardCharsets.UTF_8);
-
+        stream.forEach(s -> System.out.println(s.toString()));
     }
 
     @Override

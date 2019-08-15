@@ -1,7 +1,7 @@
 package permission.aotherpackage;
 
 public class Demo1 {
-    protected void test(){
+     void test(){
         System.out.println("test");
     }
 }
