@@ -48,7 +48,6 @@ public class FilesTest {
         //Files.delete(path3);
         //如果存在删除
         Files.deleteIfExists(path3);
-        Stream<Path>  stream = Files.
         //Files.copy(inputStream,path); //复制文件流到path
         //Files.copy(path,outputStream); //输出流到文件
 
