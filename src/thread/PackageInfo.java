@@ -1,4 +1,4 @@
-package manyThreads;
+package thread;
 
 /**
  * 多线程编程核心篇

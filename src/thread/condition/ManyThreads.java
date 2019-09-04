@@ -1,4 +1,4 @@
-package manyThreads;
+package thread.condition;
 
 public class ManyThreads {
     public static void main(String[] args){
