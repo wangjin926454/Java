@@ -88,19 +88,20 @@
     <session id="-638692571">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.37" value="1" />
-          <entry key="project.open.time.38" value="2" />
+          <entry key="project.open.time.38" value="3" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.40" value="2" />
           <entry key="project.open.time.41" value="2" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.48" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -110,7 +111,7 @@
           <entry key="class" value="3" />
           <entry key="dat" value="5" />
           <entry key="html" value="6" />
-          <entry key="java" value="216" />
+          <entry key="java" value="223" />
           <entry key="txt" value="26" />
           <entry key="xml" value="1" />
         </counts>
@@ -119,7 +120,7 @@
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="HTML" value="6" />
-          <entry key="JAVA" value="216" />
+          <entry key="JAVA" value="223" />
           <entry key="PLAIN_TEXT" value="40" />
           <entry key="XML" value="1" />
         </counts>
@@ -129,7 +130,7 @@
           <entry key="bin" value="4" />
           <entry key="dummy" value="26" />
           <entry key="html" value="3423" />
-          <entry key="java" value="23141" />
+          <entry key="java" value="23842" />
           <entry key="txt" value="49" />
           <entry key="xml" value="96" />
         </counts>
@@ -137,7 +138,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="3423" />
-          <entry key="JAVA" value="23141" />
+          <entry key="JAVA" value="23842" />
           <entry key="PLAIN_TEXT" value="79" />
           <entry key="XML" value="96" />
         </counts>
@@ -150,14 +151,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/thread/deadLock/DeadLockTest.java">
+        <entry file="file://$PROJECT_DIR$/src/thread/ThreadFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            <state relative-caret-position="525">
+              <caret line="39" column="69" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#117#241#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#311#456#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#1252#1253#0" expanded="true" />
+                <element signature="e#1326#1327#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -179,6 +181,7 @@
     <findStrings>
       <find>toString</find>
       <find>stream</find>
+      <find>getThreadGroup</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -187,8 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/java_volume/java_volume_2_2/InputOutputStream.java" />
-        <option value="$PROJECT_DIR$/src/effectivejava/MyObject.java" />
         <option value="$PROJECT_DIR$/src/java_volume/java_volume_1_7/CollectionComparableToTest.java" />
         <option value="$PROJECT_DIR$/src/java_volume/java_volume_2_2/InputStreamAndDataInputStreamTest.java" />
         <option value="$PROJECT_DIR$/src/java_volume/java_volume_2_2/ReaerTest.java" />
@@ -238,6 +239,8 @@
         <option value="$PROJECT_DIR$/src/thread/Demo3.java" />
         <option value="$PROJECT_DIR$/src/thread/threadlocal/ThreadLocalTest.java" />
         <option value="$PROJECT_DIR$/src/thread/deadLock/DeadLockTest.java" />
+        <option value="$PROJECT_DIR$/src/thread/ThreadFactory.java" />
+        <option value="$PROJECT_DIR$/src/thread/ThreadFactoryTest.java" />
       </list>
     </option>
   </component>
@@ -262,8 +265,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -290,6 +291,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,7 +301,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567607582505" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567694801813" />
     <property name="last_opened_file_path" value="F:/Git/cmd" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -332,26 +335,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeadLockTest">
+  <component name="RunManager" selected="Application.ThreadFactoryTest">
     <configuration name="DeadLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.deadLock.DeadLockTest" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="thread.deadLock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExchangerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.condition.ExchangerTest" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.condition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -372,6 +362,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="thread.condition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.ThreadFactoryTest" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -407,19 +410,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.IntegerPackageTypeDemo" />
-      <item itemvalue="Application.ExchangerTest" />
       <item itemvalue="Application.ThreadJoin" />
       <item itemvalue="Application.StaticTestManyThread" />
       <item itemvalue="Application.ThreadLocalTest" />
       <item itemvalue="Application.DeadLockTest" />
+      <item itemvalue="Application.ThreadFactoryTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DeadLockTest" />
+        <item itemvalue="Application.ThreadFactoryTest" />
         <item itemvalue="Application.ThreadLocalTest" />
+        <item itemvalue="Application.DeadLockTest" />
         <item itemvalue="Application.StaticTestManyThread" />
         <item itemvalue="Application.ThreadJoin" />
-        <item itemvalue="Application.ExchangerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -454,18 +457,20 @@
       <workItem from="1566217678407" duration="4803000" />
       <workItem from="1566390838516" duration="14000" />
       <workItem from="1566824004379" duration="891000" />
-      <workItem from="1567431950662" duration="15837000" />
+      <workItem from="1567431950662" duration="15926000" />
+      <workItem from="1567609709761" duration="150000" />
+      <workItem from="1567693051526" duration="1809000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239454000" />
+    <option name="totallyTimeSpent" value="241502000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4993046" visible="true" weight="0.1748401" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4993046" visible="true" weight="0.17803837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.5006954" side_tool="true" weight="0.24740933" />
@@ -474,7 +479,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49935234" visible="true" weight="0.33798283" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49935234" weight="0.2081545" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3583691" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -528,20 +533,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/java_volume/java_volume_2_2/InputStreamAndDataInputStreamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java_volume/java_volume_2_2/InputOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java_volume/java_volume_2_2/student1.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -670,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="113" column="13" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java_volume/java_volume_2_2/nio1/a.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -739,13 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1797" column="22" selection-start-line="1797" selection-start-column="22" selection-end-line="1797" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/thread/condition/AwaitUntil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -764,10 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="346" column="16" selection-start-line="346" selection-start-column="16" selection-end-line="346" selection-end-column="16" />
-          <folding>
-            <element signature="e#6812#6813#0" expanded="true" />
-            <element signature="e#6849#6850#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,9 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -792,10 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-451">
           <caret line="278" column="11" selection-start-line="278" selection-start-column="11" selection-end-line="278" selection-end-column="11" />
-          <folding>
-            <element signature="e#9671#9672#0" expanded="true" />
-            <element signature="e#9749#9750#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -803,10 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <element signature="e#224#352#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -814,10 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-84">
           <caret line="614" column="13" selection-start-line="614" selection-start-column="13" selection-end-line="614" selection-end-column="13" />
-          <folding>
-            <element signature="e#22414#22415#0" expanded="true" />
-            <element signature="e#22461#22462#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -832,13 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#455#583#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#1015#1143#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -846,11 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="e#143#421#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -858,10 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="e#117#229#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -869,10 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#239#396#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -883,45 +821,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/threadlocal/ThreadLocalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#207#337#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#158#322#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#880#1017#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/thread/Demo3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
           <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thread/deadLock/DeadLockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
+        <state relative-caret-position="175">
           <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/threadlocal/ThreadLocalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#117#241#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/ThreadFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="477" column="18" selection-start-line="477" selection-start-column="18" selection-end-line="477" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="263" column="32" selection-start-line="263" selection-start-column="32" selection-end-line="263" selection-end-column="32" />
+          <folding>
+            <element signature="e#15704#15705#0" expanded="true" />
+            <element signature="e#15770#15771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/ThreadFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="39" column="69" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
+          <folding>
+            <element signature="e#311#456#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
           </folding>
         </state>
       </provider>
