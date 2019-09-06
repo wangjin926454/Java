@@ -1,4 +1,4 @@
-package thread.produceandconsumer;
+package thread.produceandconstomer;
 
 public class ThreadDemo {
     /*
