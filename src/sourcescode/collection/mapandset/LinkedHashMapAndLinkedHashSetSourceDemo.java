@@ -16,6 +16,7 @@ public class LinkedHashMapAndLinkedHashSetSourceDemo {
         for(int i=0;i<10;i++){
             int n = r.nextInt(100);
             //System.out.println(n);
+            //put时先对hashcode再次hash
             hashMap.put(""+n,n);
             hashSet.add(n);
         }
