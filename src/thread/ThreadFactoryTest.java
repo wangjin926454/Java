@@ -1,11 +1,14 @@
 package thread;
 
+import java.util.concurrent.RejectedExecutionHandler;
 import java.util.concurrent.ThreadFactory;
+import java.util.concurrent.ThreadPoolExecutor;
+
 /**
  * 线程工厂
  * */
-public class ThreadFactoryTest implements ThreadFactory {
-    private final UnCahghtException uce = new UnCahghtException();
+public class ThreadFactoryTest implements ThreadFactory, RejectedExecutionHandler {
+    private final UnCaughtException uce = new UnCaughtException();
     public static void main(String[] args){
         ThreadFactoryTest test = new ThreadFactoryTest();
         test.newThread(new Thread(){
@@ -37,12 +40,19 @@ public class ThreadFactoryTest implements ThreadFactory {
             }
         };
     }
+
+    @Override
+    public void rejectedExecution(Runnable r, ThreadPoolExecutor executor) {
+        System.out.println("rejectedExecution test");
+    }
+
     //抛未捕获的异常时自动调用实现UncaughtExceptionHandler接口的重写的uncaughtException方法
-    static class UnCahghtException implements Thread.UncaughtExceptionHandler{
+    static class UnCaughtException implements Thread.UncaughtExceptionHandler{
 
         @Override
         public void uncaughtException(Thread t, Throwable e) {
             System.out.println(t.getName()+" "+e.getMessage());
         }
     }
+
 }

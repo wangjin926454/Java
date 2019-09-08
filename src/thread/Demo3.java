@@ -1,6 +1,5 @@
 package thread;
 
-import permission.Demo;
 import permission.aotherpackage.Demo1;
 
 public class Demo3 extends Demo1{
