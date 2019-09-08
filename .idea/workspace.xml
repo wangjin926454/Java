@@ -153,13 +153,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/thread/ThreadFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
             <state relative-caret-position="497">
               <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-=======
-            <state relative-caret-position="525">
-              <caret line="39" column="69" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
->>>>>>> da3ddb11f761abef9bc69e6f47fed896b231310f
+
               <folding>
                 <element signature="e#311#456#0" expanded="true" />
                 <element signature="e#455#456#0" expanded="true" />
@@ -484,11 +480,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
-<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49935234" weight="0.3557484" />
-=======
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49935234" weight="0.2081545" />
->>>>>>> da3ddb11f761abef9bc69e6f47fed896b231310f
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3583691" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -881,13 +873,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thread/ThreadFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="497">
           <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-=======
-        <state relative-caret-position="525">
-          <caret line="39" column="69" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
->>>>>>> da3ddb11f761abef9bc69e6f47fed896b231310f
           <folding>
             <element signature="e#311#456#0" expanded="true" />
             <element signature="e#455#456#0" expanded="true" />
