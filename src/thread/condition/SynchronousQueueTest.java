@@ -33,6 +33,7 @@ public class SynchronousQueueTest {
                 }
             }
         };
+        //为什么一定t比t1先执行呢？因为java内存模型的原因，t与t1有happen before关系(他们之中都有同一个锁。queue中的ReentrantLock)，所以t比t1先执行
         t.start();
         t1.start();
     }

@@ -12,7 +12,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * newFixedThreadPool固定大小线程池,内部是一个LinkedBlockingQueue，核心线程池大小与最大线程池大小相等
  * newSingleThreadPool适合多生产者单一消费者、实现加锁效果
  * */
-public class ExecutorThreadPoolTest2 implements Callable<Integer>{
+public class ThreadPoolExecutorTest2 implements Callable<Integer>{
     private static Object object = new Object();
     private static volatile AtomicInteger a = new AtomicInteger(0);
     // 在ThreadPoolExecutor初始化中Queue为ArrayBlockingQueue和LinkedBlockingQueue和LinkedBlockingDeque且有大小限制时：
@@ -30,27 +30,25 @@ public class ExecutorThreadPoolTest2 implements Callable<Integer>{
 
     private static ThreadPoolExecutor tpe = new ThreadPoolExecutor(5,10,100L,
             TimeUnit.SECONDS,new LinkedBlockingQueue<>(10),new ThreadFactoryTest(),new ThreadFactoryTest());
+    //若要批量执行任务且要获得返回值可以使用ExecutorCompletionService实例
     private static ExecutorCompletionService service = new ExecutorCompletionService(tpe);
 
     public static void main(String[] args)throws Exception{
         Future f = null;
         for(int i=0;i<30;i++){
-            tpe.submit(new ExecutorThreadPoolTest2());
-            System.out.println(i+" Queue大小："+tpe.getQueue().size());
+            //若要批量执行任务且要获得返回值可以使用ExecutorCompletionService实例
+            service.submit(new ThreadPoolExecutorTest2());
+            //获取返回值，没有线程执行完毕则此步骤会阻塞，直到有异步任务执行结束
+            System.out.println(service.take().get());
+            //非阻塞队列
+            //service.poll();
+            //service.poll(Long long,TimeUnit unit);
         }
-        Thread.sleep(15000);
-        System.out.println("TaskCount"+tpe.getTaskCount());
-        System.out.println("LargestPoolSize"+tpe.getLargestPoolSize());
-        System.out.println("Pool size"+tpe.getPoolSize());
-        System.out.println("Queue Size:"+tpe.getQueue().size());
-        System.out.println("Thread Active:"+tpe.getActiveCount());
-        //tpe.shutdown();
+
     }
 
     @Override
     public Integer call() throws Exception {
-        System.out.println(a.incrementAndGet());
-        Thread.sleep(5000);
-        return null;
+        return a.incrementAndGet();
     }
 }
