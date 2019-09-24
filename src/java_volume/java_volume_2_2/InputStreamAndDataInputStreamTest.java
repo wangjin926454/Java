@@ -21,6 +21,7 @@ public class InputStreamAndDataInputStreamTest implements AutoCloseable {
                  System.out.println(len);
                  dos.write(b,0,len);
              }
+             dos.flush();
         }
     }
 
