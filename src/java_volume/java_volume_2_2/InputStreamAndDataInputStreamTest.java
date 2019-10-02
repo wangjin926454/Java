@@ -3,24 +3,25 @@ package java_volume.java_volume_2_2;
 import java.io.*;
 
 /**
- * PrintWriter
+ *读写java对象中的数据。类似序列化
  * */
 public class InputStreamAndDataInputStreamTest implements AutoCloseable {
     public static void main(String[] args)throws Exception {
         try (
-                FileInputStream fis = new FileInputStream("C:\\Users\\Administrator\\a.txt");
+                FileInputStream fis = new FileInputStream("C:\\Users\\Administrator\\Documents\\GitHub\\Java\\src\\java_volume\\java_volume_2_2\\a.txt");
                 DataInputStream dis = new DataInputStream(fis);
-
-             DataOutputStream dos = new DataOutputStream(
-                     new BufferedOutputStream(
+        )
+ /*            DataOutputStream dos = new DataOutputStream(
                              new FileOutputStream("C:\\Users\\Administrator\\Documents\\GitHub\\Java\\src\\java_volume\\java_volume_2_2\\a.txt")
-                     ))) {
-             int len = -1;
-             byte[] b = new byte[1024];
-             while((len=dis.read(b)) != -1){
-                 System.out.println(len);
-                 dos.write(b,0,len);
-             }
+                     ))*/ {
+            /*dos.writeInt(1);
+            dos.flush();
+            dos.writeUTF("wangjin");
+            dos.flush();*/
+            int a = dis.readInt();
+            String s = dis.readUTF();
+            System.out.println(s + "  "+a);
+
         }
     }
 

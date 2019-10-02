@@ -5,6 +5,7 @@ import java.io.*;
  * 序列化实践。在序列化单例模式的时候需要实现readResolve()方法
  * 通过readResolve方法返回对象，否则序列化出来的对象实例不会等于类中现存对象，这就违反了单例的要求。
  *
+ * 无法序列化static属性和transient属性，反序列化时会赋予默认值
  * 序列化时版本管理
  * 兼容版本时加入private static final long serialVersionUID = - xxxxxxxxxxxx;
  * 即可兼容类的不同版本
