@@ -1,5 +1,7 @@
 package java_volume.java_volume_2_1;
 
+import java_volume.java_volume_2_1.stream.StreamMidOperation;
+
 /**
  * Stream以及对Stream的操作
  *
@@ -11,7 +13,7 @@ package java_volume.java_volume_2_1;
  * 映射(转换)
  * 归约
  * 收集
- * 
+ * @see  StreamMidOperation
  * */
 public class PackageInfo {
 }
