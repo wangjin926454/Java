@@ -24,7 +24,7 @@ public class CollectOptionalResultToMap {
         //Map<String,People> map = list.stream().collect(Collectors.toMap(People::getName, Function.identity()));
 
         //处理多个元素具有相同的键，否则抛出IllegalStateException
-        Map<String,String> map =
+        Map<String,String> map =                                                    //下面这从后面不写则表示不覆盖
                 list.stream().collect(Collectors.toMap(People::getName,People::getPwd,(exitingValue,newValue)->newValue));//覆盖前一个值
         System.out.println(map.toString());
         ConcurrentHashMap<String,String> map1 =

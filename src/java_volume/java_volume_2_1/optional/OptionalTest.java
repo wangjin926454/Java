@@ -10,7 +10,8 @@ import java.util.stream.Stream;
 
 public class OptionalTest {
     public static void main(String[] args) throws Exception{
-        String string = new String(Files.readAllBytes(Paths.get("C:\\Users\\Administrator\\a.txt")), StandardCharsets.UTF_8);
+
+        String string = new String(Files.readAllBytes(Paths.get("C:\\用户\\Administrator\\a.txt")), StandardCharsets.UTF_8);
         Optional<String> optional = Stream.of(string.split("\\PL+")).max(String::compareToIgnoreCase);
         System.out.println("largest: "+optional.orElse(""));    //如果optional为空则返回""
 
@@ -37,15 +38,18 @@ public class OptionalTest {
         // 如果有以"F"开头的单词则输出x+"5"
         stream6.filter(s -> s.startsWith("f")).findFirst().ifPresent( x ->System.out.println(x+"5"));
 
-        Optional<String> optional3 = Stream.of(string.split("\\PL+")).filter(x->x.contains("F")).findFirst();
+        String s1 = Stream.of(string.split("\\PL+")).filter(x -> x.contains("F")).findFirst().orElse("没有这样一个值");
         // 如果有以"F"开头的单词则
-        if(optional3.isPresent()){
-            optional3.get().length();  //get获取类型，然后可以使用对应的类方法
-        }
+        System.out.println(s1);
+
         List<String> list = new ArrayList<>();
+        list.add("wangjin");
+        list.add("wangjin1");
+        Optional<String> optional3 = list.stream().filter(s -> s.contains("w")).findFirst();
+        List<String> list1 = new ArrayList<>();
         //如果optional3有返回值则added中增加一个元素true，否则返回一个Optional.empty;
         //如果optional3有返回值则list中增加optional3的toString()值
-        Optional<Boolean> added = optional3.map(list::add);
+        Optional<Boolean> added = optional3.map(list1::add);
         System.out.println(list);
         System.out.println(added);
 
