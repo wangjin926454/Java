@@ -36,7 +36,7 @@ public class LambdaTest {
         };
         System.out.println(comparator1.compare(4,3));
 
-        //简写->只有一天return语句可以不写大括号跟return 默认 return值
+        //简写->只有一条return语句可以不写大括号跟return 默认 return值
         //Comparator<Integer> comparator2 = (o1,o2) -> o1.compareTo(o2);
         Comparator<Integer> comparator2 = Integer::compare;//直接使用已经实现的方法
         System.out.println(comparator2.compare(4,3));

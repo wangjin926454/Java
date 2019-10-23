@@ -1,7 +1,5 @@
 package java_volume.java_volume_2_2.inetaddress;
 
-import org.junit.Test;
-
 import java.io.*;
 import java.net.Socket;
 

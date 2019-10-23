@@ -1,7 +1,5 @@
 package java_volume.java_volume_2_2;
 
-import org.junit.Test;
-
 import java.io.RandomAccessFile;
 
 /**
@@ -19,10 +17,5 @@ public class RandomAccessFileTest {
         rf.seek(len);
         rf.write("abc".getBytes());
         rf.close();
-    }
-    //模拟插入操作
-    @Test
-    public void test()throws Exception{
-
     }
 }

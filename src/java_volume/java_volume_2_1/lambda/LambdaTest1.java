@@ -10,7 +10,7 @@ public class LambdaTest1 {
 
     public static void main(String[] args){
 
-        Consumer<Double> consumer = d -> System.out.println(d);
+        Consumer<Double> consumer = System.out::println;
         happyTime(300.0,consumer);
 
         List<String> list = Arrays.asList("aaaaa","aaab","aaaac","dddd","eeeee");
