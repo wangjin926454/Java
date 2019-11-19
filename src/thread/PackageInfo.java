@@ -27,7 +27,11 @@ import java.util.concurrent.locks.Lock;
  *                                      内未获得锁直接返回false，内部锁只支持非公平锁等。
  *  4）读写锁ReentrantReadWriteLock对读操作共享，对写操作排它。写锁可以降级（在获得写锁时继续获得读锁），但是不能
  *      升级（在获得读锁时继续获得写锁，必须先释放读锁，再获得写锁）
- *  5）
+ * JVM内部对锁的优化（只针对synchronized）
+ *  1）锁粗化：三个方法都是同一个锁，直接锁粗化
+ *  2）锁消除：运行了很久发现没人抢则锁消除
+ *  3）偏向锁：第一次获得锁的线程，再次获得时无需进行CAS操作，中途有别人访问则把偏向锁给最新的人，使得连续两个线程访问时只要一把锁。
+ *  4）适应性锁：忙等(自旋)或者WAITING
  *
  * 6.锁实现方式：内存屏障
  *              1）在读写操作前后加入获取屏障与释放屏障，内存屏障可以防止重排序把读写操作排序到临界区之外，
@@ -79,11 +83,15 @@ import java.util.concurrent.locks.Lock;
  * 15.信号量Semaphore 限流，只有acquire获得一个信号之后才能进行操作，release释放一个信号量。须配对使用，在finally中释放release
  * @see thread.condition.SemaphoreTest
  *
- * 16.ThreadLocal
+ * 16.Exchanger 双缓冲区
+ * @see thread.condition.ExchangerTest
+ *      两个LinkedBlockingQueue，通过Exchanger实例互相交换数据
+ *
+ * 17.ThreadLocal
  * @see thread.threadlocal.ThreadLocalTest
  *      每个线程持有一份变量副本，互不影响
  *
- * 17.并发集合：
+ * 18.并发集合：
  *      ArrayList    CopyOnWriterArrayList    快照
  *      HashSet      CopyOnWriterArraySet     快照
  *      HashMap      ConcurrentHashMap        准实时
@@ -93,7 +101,41 @@ import java.util.concurrent.locks.Lock;
  *      快照：在创建遍历时创建一个副本，对副本进行遍历，不影响原集合
  *      准实时：不加锁进行遍历，但是也是线程安全的，如果多个线程对同一个并发集合进行遍历，这些线程不适合共享同一个Iterator实例。
  *
- * 18.
+ * 19.死锁防止：
+ * @see thread.deadLock.DeadLockTest
+ *      一个不断运行的工作者线程，检测是否系统中有死锁，有则选取一个发送中断。
+ *
+ * 20.线程池：
+ * @see thread.threadpoolexecutor.ThreadPoolExecutorTest
+ * @see thread.threadpoolexecutor.ThreadPoolExecutorTest2
+ *      ThreadPoolExecutor(int corePoolSize,int maximumPoolSize,long keepAliveTime,TimeUnit time,
+ *          BlockingQueue<Runnable> workQueue,ThradFactory threadFactory,RejectedExecutionHandler handler)
+ *      核心线程数，最大线程数，最大空闲时间，时间单位，工作者线程队列，线程工厂，拒绝策略
+     *       在ThreadPoolExecutor初始化中Queue为ArrayBlockingQueue和LinkedBlockingQueue和LinkedBlockingDeque且有大小限制时：
+     *       1) 当池子大小小于corePoolSize就新建线程，并处理请求
+     *       2）当池子大小等于corePoolSize，超过的线程加入ArrayBlockingQueue等待执行,
+     *       这个时候getQueue()数量可能小于workQueue初始化的数量，此时一共有maximumPoolSize的线程数
+     *       3) 线程池能容纳的最大容量 = maximumPoolSize + Queue(int capacity)
+     *       4）当workQueue放不下新入的任务时，就用RejectedExecutionHandler来做拒绝处理
+     *       5）另外，当池子的线程数大于corePoolSize的时候，超过corePoolSize的数量的执行完毕的线程
+ *              会等待keepAliveTime长的时间，如果无请求可处理就自行销毁
+ *      线程首先直接执行，然后加入工作者线程队列，再来的线程加入线程池直到最大线程数。
+ *      拒绝策略：可以自定义，拒绝策略有：抛出异常，拒绝而不抛出异常，丢弃老的任务重新尝试接纳刚才线程，在客户端中直接被拒绝的线程。
+ *      关闭线程池：shutdown不会马上关闭，执行完毕之后关闭
+ *               shutdownNow 马上关闭，返回未被执行的任务列表
+ *               awaitTermination（long timeout,timeUnit unit）时间到了之后关闭
+ *
+ *  四种线程池
+ * @see thread.threadpoolexecutor.FourThreadPoolExecutor
+    *  * ExecutorThreadPool
+    *  * newCachedThreadPool适合耗时短。内部是一个SynchronousQueue,核心线程池大小为0
+    *  * newFixedThreadPool//corePoolSize == maxPoolSize 全部都是核心适合生产者消费者固定
+    *  * newSingleThreadPool//只有一个核心线程数，但是工作者线程队列是LinkedBlockingQueue无界队列，无限添加。适合多生产者
+ * 21.批量执行任务并有返回值：CompletionService
+ * @see thread.threadpoolexecutor.ThreadPoolCompletionService
+ *
+ * 22.定时任务ScheduleThreadPoolExecutor 可以对返回值进行判断做出相应操作。例如取消、异常处理
+ * @see thread.schedulethreadpoolexecutortest.ScheduleThreadPoolExecutorTest
  * */
 public class PackageInfo {
 }

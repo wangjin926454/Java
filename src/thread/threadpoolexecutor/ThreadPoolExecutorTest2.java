@@ -18,7 +18,6 @@ public class ThreadPoolExecutorTest2 implements Callable<Integer>{
     // 在ThreadPoolExecutor初始化中Queue为ArrayBlockingQueue和LinkedBlockingQueue和LinkedBlockingDeque且有大小限制时：
     //  1) 当池子大小小于corePoolSize就新建线程，并处理请求
     //  2）当池子大小等于corePoolSize，超过的线程加入ArrayBlockingQueue等待执行,
-    //  这个时候getQueue()数量可能小于workQueue初始化的数量，此时一共有maximumPoolSize的线程数
     //  3) 线程池能容纳的最大容量 = maximumPoolSize + Queue(int capacity)
     //  4）当workQueue放不下新入的任务时，就用RejectedExecutionHandler来做拒绝处理
     //  5）另外，当池子的线程数大于corePoolSize的时候，多余的线程会等待keepAliveTime长的时间，如果无请求可处理就自行销毁
@@ -28,8 +27,8 @@ public class ThreadPoolExecutorTest2 implements Callable<Integer>{
     //LinkedBlockingQueue一直添加在其缓存队列中，因为LinkedBlockingQueue是无界队列
 
 
-    private static ThreadPoolExecutor tpe = new ThreadPoolExecutor(5,10,100L,
-            TimeUnit.SECONDS,new LinkedBlockingQueue<>(10),new ThreadFactoryTest(),new ThreadFactoryTest());
+    private static ThreadPoolExecutor tpe = new ThreadPoolExecutor(5,10,1,
+            TimeUnit.SECONDS,new LinkedBlockingQueue<>(1),new ThreadFactoryTest(),new ThreadFactoryTest());
     //若要批量执行任务且要获得返回值可以使用ExecutorCompletionService实例
     private static ExecutorCompletionService service = new ExecutorCompletionService(tpe);
 
@@ -37,18 +36,40 @@ public class ThreadPoolExecutorTest2 implements Callable<Integer>{
         Future f = null;
         for(int i=0;i<30;i++){
             //若要批量执行任务且要获得返回值可以使用ExecutorCompletionService实例
-            service.submit(new ThreadPoolExecutorTest2());
+            tpe.submit(new Thread(){
+                public void run(){
+                    try {
+                        Thread.sleep(0);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            });
             //获取返回值，没有线程执行完毕则此步骤会阻塞，直到有异步任务执行结束
-            System.out.println(service.take().get());
+            //System.out.println(service.take().get());
+            //Thread.sleep(1000);
+            //获取线程池大小，不包括线程队列中
+            System.out.print("当前线程池总数"+tpe.getPoolSize()+" ");
+            //获取线程队列大小
+            System.out.print("当前线程池队列数"+tpe.getQueue().size()+" ");
+            System.out.print("当前线程池核心数"+tpe.getCorePoolSize()+" ");
+            System.out.print("线程池接受到的线程数量"+tpe.getTaskCount()+" ");
+            System.out.print("线程池已处理完毕的线程数量"+tpe.getCompletedTaskCount()+" ");
+            System.out.print("正在执行的线程数量"+tpe.getActiveCount());
+            System.out.println();
             //非阻塞队列
             //service.poll();
             //service.poll(Long long,TimeUnit unit);
         }
+        System.out.println(tpe.getPoolSize());
+        Thread.sleep(2000);
+        System.out.println(tpe.getPoolSize());
 
     }
 
     @Override
     public Integer call() throws Exception {
+        Thread.sleep(100000);
         return a.incrementAndGet();
     }
 }
