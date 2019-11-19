@@ -21,7 +21,6 @@ public class ExchangerTest {
                     blockingQueue = exchanger.exchange(blockingQueue);
                     System.out.println(Thread.currentThread().isInterrupted());
                     System.out.println(Thread.interrupted());
-                    Thread.sleep(10000);
                     System.out.println(blockingQueue.size());
 
                 }catch (InterruptedException e){
@@ -32,11 +31,12 @@ public class ExchangerTest {
         Thread t1 = new Thread(){
             public void run(){
                 try{
+                    Thread.sleep(10000);
                     //调用exchange()交换数据
                     //把bockingQueue的数据交换过来
                     blockingQueue1 = exchanger.exchange(blockingQueue1);
                     for(int i=0;i<10;i++){
-                        System.out.print("b"+blockingQueue1.take()+" ");
+                        System.out.print("take: "+blockingQueue1.take()+" ");
                     }
                     System.out.println();
                 }catch (InterruptedException e){

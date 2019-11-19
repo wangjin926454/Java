@@ -11,18 +11,16 @@ public class SemaphoreTest {
     public static void main(String[] args){
         Thread t = new Thread(){
             public void run(){
-                try{
-                    for(int i=0;i<11;i++){
-                        //semaphore中容量+1
+                for(int i=0;i<11;i++){
+                    System.out.println("已获得信号量"+i);
+                    try {
                         semaphore.acquire();
-                        System.out.println(i);
-                        //semaphore中容量-1
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }finally {
                         semaphore.release();
+                        System.out.println("已释放信号量"+i);
                     }
-                }catch (InterruptedException e){
-                    e.printStackTrace();
-                }finally {
-                    System.out.println("finally");
                 }
             }
         };

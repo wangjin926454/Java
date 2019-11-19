@@ -1,7 +1,6 @@
 package thread.threadlocal;
 
 import thread.Demo3;
-
 import java.lang.management.ManagementFactory;
 import java.lang.management.ThreadMXBean;
 import java.text.SimpleDateFormat;
@@ -33,6 +32,7 @@ public class ThreadLocalTest {
             public  void run(){
                 System.out.println("3"+sdf.get());
                 System.out.println("Demo3 a1="+demo3.get().getA());
+                demo3.remove();
             }
         };
         t.start();
